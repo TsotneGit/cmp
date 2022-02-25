@@ -5,9 +5,9 @@ bin-int/
 # Visual Studio files and folders
 .vs/
 **.sln
-**.vsxproj
-**.vsxproj.filters
-**.vsxproj.user
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
 
 # Other
 __pycache__
