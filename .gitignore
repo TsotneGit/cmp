@@ -1,0 +1,13 @@
+# Binaries
+**/bin/
+bin-int/
+
+# Visual Studio files and folders
+.vs/
+**.sln
+**.vsxproj
+**.vsxproj.filters
+**.vsxproj.user
+
+# Other
+__pycache__
