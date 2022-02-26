@@ -9,14 +9,14 @@ namespace cmp
 	}
 
 
-	Complex::Complex(int _real)
+	Complex::Complex(const int& _real)
 	{
 		m_Real = _real;
 		m_Imag = 0;
 	}
 
 
-	Complex::Complex(int _real, int _imag)
+	Complex::Complex(const int& _real, const int& _imag)
 	{
 		m_Real = _real;
 		m_Imag = _imag;
@@ -40,13 +40,13 @@ namespace cmp
 	}
 
 
-	void Complex::imag(int _new_imag)
+	void Complex::imag(const int& _new_imag)
 	{
 		m_Imag = _new_imag;
 	}
 
 
-	void Complex::real(int _new_real)
+	void Complex::real(const int& _new_real)
 	{
 		m_Real = _new_real;
 	}
